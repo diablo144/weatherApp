@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="weather.css">
+  <link rel="icon" href="images/icon.jpg">
+  <title>Climatrix</title>
+</head>
+<body>
+  <div class="card">
+    <div class="input">
+      <input class="City-input" type="text" placeholder="Enter City">
+      <button class="search">
+        <img class="img" src="images/search.svg">
+      </button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="all">
+
+      <div class="info">
+        <img src="images/rain.png" class="weather-icon">
+        <h1 class="temp">Temperature</h1>
+        <h2 class="city">City</h2>
+      </div>
+      <div class="details">
+        <div class="humidity-info">
+          <img src="images/humidity.png" >
+          <div>
+            <p class="humidity"></p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind-info">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind">
+              
+            </p>
+            <p>WindSpeed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
